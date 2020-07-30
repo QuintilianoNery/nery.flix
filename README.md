@@ -21,6 +21,7 @@ We suggest that you begin by typing:
   cd reactflix
   npm start
 
+-----------------------------------------------------------
 
 ## Links importantes para você acompanhar a aula 01
 
