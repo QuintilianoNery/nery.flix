@@ -2,7 +2,7 @@
 Criação site utilizando React.
 Projeto Nery.flix: https://nery-flix.vercel.app/
 
-## Comandos Aula 01
+## Links básicos
 
 npm start
     Starts the development server.
