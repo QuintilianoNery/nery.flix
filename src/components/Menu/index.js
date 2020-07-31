@@ -14,7 +14,7 @@ function Menu( ) {
             <Button as="a" className="ButtonLink" href="/">
                 Novo vídeo
             </Button> 
-        <!-- Begin Inspectlet Asynchronous Code -->
+            
         <script type="text/javascript">
         (function() {
         window.__insp = window.__insp || [];
@@ -24,7 +24,7 @@ function Menu( ) {
         setTimeout(ldinsp, 0);
         })();
         </script>
-        <!-- End Inspectlet Asynchronous Code -->                      
+                
         </nav>
     );
 }
