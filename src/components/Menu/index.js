@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
 import '../Menu/menu.css';
 import Button from '../Button';
@@ -8,10 +9,13 @@ import Button from '../Button';
 function Menu( ) {
     return (        
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
+                // Como configurar o link com comportamento de SPA      
             <img className="Logo" src={Logo} alt="ReactFlix" />
-            </a>
-            <Button as="a" className="ButtonLink" href="/">
+            </Link>
+
+
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo vídeo
             </Button>   
         </nav>
